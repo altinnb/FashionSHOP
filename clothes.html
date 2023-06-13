@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Clothes | FASHIONSHOP</title>
+    <link rel="icon" href="images/logo.jpg">
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header2">
+    <div class="div1">
+        <div class="div1_1">
+            <input class="search-txt" type="text" name="" placeholder="Type to search">
+            <a class="search-btn" href="#">
+                <i class="fas fa-search"></i>
+            </a>
+            <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        </div>
+        <div class="div1_2">
+            <a href="#"></a>
+            <img rel="icon" onclick="window.location.href='Home.html'" src="images/logo.jpg" alt="logo" width="120px">
+        </div>
+        <div class="div1_3">
+            <button class="button-50" role="button" onclick="window.location.href='login.html'"></a> Sign In</button>
+        </div>
+    </div>
+</header>
+    <div class="orders">
+        <div class="div2">
+            <ul class="list1">
+               <li>
+                   <a class="list1_1" href="#">New Arrivals</a>
+               </li> 
+               <li> 
+                    <a class="list1_1" href="home.html">Clothes </a>
+               </li>
+               <li>
+                   <a class="list1_1" href="#"> Shoes</a>
+               </li>
+               <li>
+                    <a class="list1_1" href="#">Accessiores</a>
+                </li> 
+    
+            </ul>
+        </div>
+        <div class="line-div"></div>
+    </div>
+    <div class="home-div">
+
+
+    </div>
+ </div>
+ <div class="boxesdiv">
+    <div class="imgclass">
+        <img id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()" src="images/tomford1.webp" alt="Tomford clothes">
+        <h1 class="imagetext">TOM FORD</h1>
+        <p class="imageparagraph">Jacket | Size: M</p>
+        <button class="button" type="button" data-hover="Add to cart"><span>200$</span></button>
+    </div>
+    <div class="imgclass2">
+        <h1 class="imagetext txt2">FRAME</h1>
+        <p class="imageparagraph txt2">Jeans | Size: S</p>
+        <button class="button leftbtn" type="button" data-hover="Add to cart"><span>99$</span></button>
+        <img id="img2" src="images/pantss2.webp" onmouseover="setNewImage1()" onmouseout="setOldImage1()" alt="Pants">
+    </div>
+    <div class="imgclass3">
+        <h1 class="imagetext txt3">GIVENCHY</h1>
+        <p class="imageparagraph txt3">Embellished Wool Coat | Size: M</p>
+        <button class="button rightbtn" type="button" data-hover="Add to cart"><span>599$</span></button>
+        <img id="img3" src="images/givenchy1.webp" onmouseover="setNewImage2()" onmouseout="setOldImage2()" alt="">
+    </div>
+     <div class="sizeform">
+        <h3 class="container container1">Size</h3>
+        <label class="container">XXS
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">XS
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">S
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">L
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">M
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+     </div>
+    </div>
+ <div class="boxesdiv1">
+    <div class="sizeform">
+        <h3 class="container container1">Price</h3>
+        <label class="container">Lees than $30
+            <input type="checkbox" checked="checked" name="check" onclick="onlyOne(this)">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">$30 - $50
+            <input type="checkbox" name="check" onclick="onlyOne(this)">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">$50 - $100
+            <input type="checkbox" name="check" onclick="onlyOne(this)">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">$100 - $250
+            <input type="checkbox" name="check" onclick="onlyOne(this)">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">$250+
+            <input type="checkbox" name="check" onclick="onlyOne(this)">
+            <span class="checkmark"></span>
+          </label>
+        </form>
+    </div>
+</div>
+<div>
+    
+</div>
+<div class="offadd">
+    <div class="offadd1">
+        <img src="images/off add.png" alt="" width="1840px">
+    </div>
+</div>
+<div class="boxesdiv3">
+    <div class="imgclass">
+        <img id="img4" src="images/hoodie1.webp" onmouseover="setNewImage3()" onmouseout="setOldImage3()" alt="">
+        <h1 class="imagetext">VETEMENTS</h1>
+        <p class="imageparagraph">Hoodie | Size: M</p>
+        <button class="button" type="button" data-hover="Add to cart"><span>340$</span></button>
+    </div>
+    <div class="imgclass2">
+        <img id="img5" src="images/tshirt1.webp" onmouseover="setNewImage4()" onmouseout="setOldImage4()" alt="">
+        <h1 class="imagetext txt2">BALENCIAGA</h1>
+        <p class="imageparagraph txt2">T-Shirt | Size: S</p>
+        <button class="button leftbtn" type="button" data-hover="Add to cart"><span>109$</span></button>
+    </div>
+    <div class="imgclass3">
+        <img id="img6" src="images/jacket1.webp" onmouseover="setNewImage5()" onmouseout="setOldImage5()" alt="">
+        <h1 class="imagetext txt3">GIVENCHY</h1>
+        <p class="imageparagraph txt3">Jacket | Size: M</p>
+        <button class="button rightbtn" type="button" data-hover="Add to cart"><span>700$</span></button>
+    </div>
+</div>
+<div class="boxesdiv4">
+    <div class="imgclass">
+        <img id="img7" src="images/tshirt3.webp" onmouseover="setNewImage6()" onmouseout="setOldImage6()" alt="">
+        <h1 class="imagetext">CELINE HOMME</h1>
+        <p class="imageparagraph">T-Shirt | Size: L</p>
+        <button class="button" type="button" data-hover="Add to cart"><span>199$</span></button>
+    </div>
+    <div class="imgclass2">
+        <img id="img8" src="images/pants3.webp" onmouseover="setNewImage7()" onmouseout="setOldImage7()" alt="">
+        <h1 class="imagetext txt2">FRAME</h1>
+        <p class="imageparagraph txt2">L'Homme Skinny-Fit Jeans | Size: S</p>
+        <button class="button leftbtn" type="button" data-hover="Add to cart"><span>109$</span></button>
+    </div>
+    <div class="imgclass3">
+        <img id="img9" src="images/piana3.webp" onmouseover="setNewImage8()" onmouseout="setOldImage8()" alt="">
+        <h1 class="imagetext txt3">LORO PIANA</h1>
+        <p class="imageparagraph txt3">Shearling Coat | Size: S</p>
+        <button class="button rightbtn" type="button" data-hover="Add to cart"><span>550$</span></button>
+    </div>
+</div>
+<footer>
+    <div class="footer1">
+        <a class="aboutus" href="aboutus.html">ABOUT US</a>
+        <p class="callus">CALL US</p>
+        <a href="tel:+38349100200">
+            <span class="callus callus1">+383 49 100 200 |</span>
+        </a>
+
+        <a href="mailto:costumercare@fashionshop.com">
+            <span class="callus callus2">costumercare@fashionshop.com</span>
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+            <i class="fb fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+            <i class="tw fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <i class="insta fab fa-instagram"></i>
+        </a>
+        <h4 class="payment">FASHIONSHOP ACCEPTS</h4>
+        <img class="ccards" src="images/visa-master.jpg" alt="">
+        <img class="ccards1" src="images/paypal.png" alt="">
+        <img class="cashinhand" src="images/cashinhand.png" alt="">
+        <img class="bitcoin" src="images/bitcoin.png" alt="">
+
+
+
+        <p class="cc">© 2021 FASHIONSHOP</p>
+    </div>
+</footer>
+<script src="java.js"></script>
+</body>
+</html>

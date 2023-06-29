@@ -70,3 +70,35 @@ function setOldImage8()
 {
     document.getElementById("img9").src ="images/piana3.webp";
 }
+
+
+        var slides = document.querySelectorAll('.slide');
+        var dots = document.querySelectorAll('.dot');
+        var index = 0;
+        function changeSlide(){
+            if(index>slides.length-1)
+                index=0;
+                
+            if(index<0)
+            index=slides.length-1;
+
+            for(let i=0; i<slides.length; i++){
+                slides[i].style.display="none";
+
+                dots[i].classList.remove("active");
+            }
+
+            slides[index].style.display="block";
+            dots[index].classList.add("active");
+        }
+
+        function prevSlide(n){
+            index += n; 
+            changeSlide();
+
+        }
+        function nextSlide(n){
+            index += n;
+            changeSlide();
+        }
+        changeSlide();
